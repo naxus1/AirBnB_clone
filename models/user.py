@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""Class User"""
-import models
+
+import uuid
+from datetime import datetime, date, time
+from models import *
 from models.base_model import BaseModel
 
 
 class User(BaseModel):
-    """This class create users"""
 
-    email = ""
-    password = ""
-    first_name = ""
-    last_name = ""
+    def __init__(self, *args, **kwargs):
+        super().__init__(self, *args, **kwargs)
+
+
