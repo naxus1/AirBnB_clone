@@ -50,9 +50,9 @@ For use of console, execute command
 | help | Display Commands, if have documentación | help |
 | quit | Quit of console | quit |
 | EOF | Quit of console | EOF |
-| create | Create new instance | '''python  create <class name> ''' |
-| show | Show of representación of a object | show <class name> <id> |
-| destroy | Remove  an instance | destroy <class name> <id> |
+| create | Create new instance | create class name |
+| show | Show of representación of a object | show class name id |
+| destroy | Remove  an instance | destroy class name id |
 | all | prints all string representations, can be specified by class | all |
 
 ### Authors
