@@ -21,8 +21,10 @@ class BaseModel():
     def to_dict(self):
         """This function change objest to dict"""
         self.__name__ = self.__class__.__name__
-        self.created_at = self.created_at.isoformat() if type(self.created_at) == datetime else self.created_at
-        self.updated_at = self.updated_at.isoformat() if type(self.updated_at) == datetime else self.updated_at
+        if type(self.created_at) == datetime:
+            self.created_at = self.created_at.isoformat()
+        if type(self.updated_at) == datetime:
+            self.updated_at = self.updated_at.isoformat()
         return self.__dict__
 
     def __init__(self, *args, **kwargs):
