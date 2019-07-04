@@ -12,4 +12,5 @@ class User(BaseModel):
     last_name = ""
 
     def __init__(self, *args, **kwargs):
+        """Comment"""
         super().__init__(self, *args, **kwargs)

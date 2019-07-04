@@ -1,6 +1,5 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """Class City"""
-
 from models.base_model import BaseModel
 
 
@@ -9,3 +8,7 @@ class City(BaseModel):
 
     state_id = ""
     name = ""
+
+    def __init__(self, *args, **kwargs):
+        """Comment"""
+        super().__init__(self, *args, **kwargs)
