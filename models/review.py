@@ -1,10 +1,16 @@
-#!/usr/bin/env python3
-"""model review inherit from BaseModel"""
-
+#!/usr/bin/python3
 from models.base_model import BaseModel
+from models.place import Place
+from models.user import User
+"""module: class Review"""
 
 
-def Review(BaseModel):
+class Review(BaseModel):
+    """class: Review"""
     place_id = ""
     user_id = ""
     text = ""
+
+    def __init__(self, *args, **kwargs):
+        """method: init"""
+        super().__init__(self, *args, **kwargs)
