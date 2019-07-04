@@ -10,7 +10,9 @@ from models.user import User
 class HBNBCommand(cmd.Cmd):
     """Command interpreter for AirBnB Console"""
 
-    airbnb_models = {"BaseModel": BaseModel, "User": User}
+    airbnb_models = {"BaseModel": BaseModel, "User": User, "Place": Place,
+                     "State": State, "City": City,
+                     "Amenity": Amenity, Review: "Review"}
     prompt = "(hbnb) "
 
     def do_quit(self, command):
@@ -26,7 +28,7 @@ class HBNBCommand(cmd.Cmd):
         pass
 
     def do_create(self, command):
-        """This method create new objet type BaseMo"""
+        """This method crea new objet type BaseMo"""
 
         command_split = command.split()
         name_object = command_split[0]
@@ -61,7 +63,7 @@ class HBNBCommand(cmd.Cmd):
                 print("** no instance found **")
 
     def do_destroy(self, command):
-        """Deletes an instance based on the class name and id"""
+        """Delete an instance based on the class name and id"""
         split_command = command.split()
         if len(split_command) == 0:
             print("** class name missing **")
@@ -82,7 +84,7 @@ class HBNBCommand(cmd.Cmd):
                 print("** no instance found **")
 
     def do_all(self, command=""):
-        """Prints all string representation of all instances"""
+        """Prints string representation of all instances"""
         instances = storage.all()
         if not command:
             print(instances)
@@ -99,7 +101,7 @@ class HBNBCommand(cmd.Cmd):
                 print(allItemsModel)
 
     def do_update(self, command):
-        """Updates an instance based on the class name and id"""
+        """Actualiza an instance based on the class name and id"""
         split_command = command.split()
         if not command:
             print("** class name missing **")
