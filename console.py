@@ -33,8 +33,7 @@ class HBNBCommand(cmd.Cmd):
         pass
 
     def default(self, command):
-        """Comment"""
-        print("Entro")
+        """Default """
         split_command = command.split(".")
         instance_exist = split_command[0]
         if instance_exist in self.airbnb_models:
