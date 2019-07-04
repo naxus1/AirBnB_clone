@@ -44,7 +44,7 @@ For use of console, execute command
 ### Command console
 
 | Command | Description | example |
-| --- | --- |
+| --- | --- | --- |
 | help | Display Commands, if have documentación | help |
 | quit | Quit of console | quit |
 | EOF | Quit of console | EOF |
