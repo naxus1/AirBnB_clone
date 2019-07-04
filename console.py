@@ -32,6 +32,14 @@ class HBNBCommand(cmd.Cmd):
         """Repeat prompt"""
         pass
 
+    def default(self, command):
+        """Comment"""
+        print("Entro")
+        split_command = command.split(".")
+        instance_exist = split_command[0]
+        if instance_exist in self.airbnb_models:
+            self.do_all(instance_exist)
+
     def do_create(self, command):
         """This method crea new objet type BaseMo"""
 
