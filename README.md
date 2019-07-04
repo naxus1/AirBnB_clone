@@ -3,7 +3,9 @@
 <a href=""><img src="https://camo.githubusercontent.com/70996d3dcffa41c27a6f5d59f56a42d978a4684c/687474703a2f2f696d6775722e636f6d2f4a42434d4844502e706e67" title="FVCproductions" alt="FVCproductions"></a>
 
 ### Description
-Welcome to the AirBnB clone project! (The Holberton B&amp;B), This is ours first version the AirBnB, n
+
+Welcome to the AirBnB clone project! (The Holberton B&amp;B), This is ours first version the AirBnB.
+
 > this project we create the console it drive the creation, update and deleted and management of objects. This is ours first version the AirBnB, in this project we create the console it drive the creation, update and deleted and management of objects. 
 
 ### Synopsis
@@ -52,3 +54,7 @@ For use of console, execute command
 | show | Show of representación of a object | show <class name> <id> |
 | destroy | Remove  an instance | destroy <class name> <id> |
 | all | prints all string representations, can be specified by class | all |
+
+### Authors
+Fesus Rockus - <a href ="https://github.com/fesusrocuts">GitHub</a>
+Oscar vargas Molina - <a href ="https://github.com/naxus1">GitHub</a>
