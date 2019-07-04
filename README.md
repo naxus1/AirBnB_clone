@@ -1,6 +1,6 @@
 # AirBnB_clone
 
-<a href=""><img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUXW7JF5MT%2F20190704%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190704T144425Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=cba77781d9c11fea7bece26ffdcde190e657fa7ab6e2fcf2b408ca2fe6191251" title="FVCproductions" alt="FVCproductions"></a>
+<a href=""><img src="https://camo.githubusercontent.com/70996d3dcffa41c27a6f5d59f56a42d978a4684c/687474703a2f2f696d6775722e636f6d2f4a42434d4844502e706e67" title="FVCproductions" alt="FVCproductions"></a>
 
 ### Description
 Welcome to the AirBnB clone project! (The Holberton B&amp;B), This is ours first version the AirBnB, n
@@ -48,7 +48,7 @@ For use of console, execute command
 | help | Display Commands, if have documentación | help |
 | quit | Quit of console | quit |
 | EOF | Quit of console | EOF |
-| create | Create new instance | ''' create <class name> ''' |
+| create | Create new instance | '''python  create <class name> ''' |
 | show | Show of representación of a object | show <class name> <id> |
 | destroy | Remove  an instance | destroy <class name> <id> |
 | all | prints all string representations, can be specified by class | all |
