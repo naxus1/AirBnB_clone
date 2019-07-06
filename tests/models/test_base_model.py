@@ -6,7 +6,7 @@ from models import *
 
 class Test_BaseModel(unittest.TestCase):
     """
-    Test the base model class
+    Test base_model
     """
 
     def setUp(self):
