@@ -4,6 +4,7 @@ from datetime import datetime, date, time
 from models import *
 from models.base_model import BaseModel
 
+
 Class DefaultTestCase(unittest.TestCase):
     @classmethod
     def setUpClass(self):
