@@ -1,4 +1,5 @@
 import unittest
+import uuid
 import os.path
 from datetime import datetime
 from models.engine.file_storage import FileStorage
