@@ -2,7 +2,6 @@ import unittest
 import uuid
 from datetime import datetime, date, time
 from models import *
-from models.base_model import BaseModel
 
 
 Class DefaultTestCase(unittest.TestCase):
