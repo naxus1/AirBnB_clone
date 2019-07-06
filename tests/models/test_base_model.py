@@ -11,7 +11,6 @@ class Test_BaseModel(unittest.TestCase):
 
     def setUp(self):
         self.model1 = BaseModel()
-
         test_args = {'created_at': datetime(2019, 7, 5, 1, 0, 0, 100000),
                      'updated_at': datetime(2019, 7, 5, 1, 0, 0, 100000),
                      'id': '12345678-0123-0123-0123-012345678901',
